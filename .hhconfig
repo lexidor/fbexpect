@@ -1,10 +1,17 @@
-assume_php=false
 ignored_paths = [ "vendor/.+/tests/.+" ]
-disallow_elvis_space=true
-disallow_non_arraykey_keys=true
-disallow_unsafe_comparisons=true
-decl_override_require_hint=true
-enable_experimental_tc_features=shape_field_check,sealed_classes
-user_attributes=
+
+assume_php = false
+decl_override_require_hint = true
+disable_primitive_refinement = true
+disable_static_local_variables = true
 disallow_array_literal = true
+disallow_destruct = true
+disallow_elvis_space = true
+disallow_non_arraykey_keys = true
 disallow_silence = true
+disallow_stringish_magic = true
+disallow_unsafe_comparisons = true
+safe_array = true
+safe_vector_array = true
+unsafe_rx = false
+user_attributes = 
